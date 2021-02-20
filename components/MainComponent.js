@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Header, Title, Content, Footer, FooterTab, Button, Left, Right, Body, Icon, Text, Form, Item, Input, Label  } from 'native-base';
-import InboxComponent from './InboxComponent';
+import LoginComponent from './LoginComponent';
 
 export default class MainComponent extends Component {
 
@@ -60,7 +60,7 @@ export default class MainComponent extends Component {
               <Icon name="chatbubble" />
               <Text>Inbox</Text>
             </Button>
-            <Button vertical onPress={<InboxComponent />}>
+            <Button vertical onPress={<LoginComponent />}>
               <Icon name="person" />
               <Text>Profile</Text>
             </Button>
